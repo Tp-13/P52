@@ -1,0 +1,39 @@
+h1{color:rgb(35, 52, 149)}
+.HEADING{background-color: rgb(100, 182, 236); display:flex; justify-content: space-evenly;}
+.LINKS{background-color: rgb(76, 146, 192); display:flex; justify-content: space-evenly;}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(99, 147, 250, 0.596);
+    padding: 15px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    color: royalblue;
+}
+body{
+    margin: 0px;
+    background-color: rgba(135, 207, 235, 0.767);
+}
+.grid{
+    border: 2px solid #072047;
+    border-radius: 50px;
+}
+.origami{
+
+    border-radius: 20px;
+    background-color: skyblue;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.origami:hover{
+    transform: scale(1.2)
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: cyan;
+}
